@@ -1,7 +1,7 @@
 Summary:	Real-time file compressor
 Name:		lzop
 Version:	1.03
-Release:	10%{?dist}
+Release:	8%{?dist}
 License:	GPLv2+
 Group:		Applications/Archiving
 URL:		http://www.lzop.org/
@@ -38,12 +38,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man?/%{name}.*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.03-10
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.03-9
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.03-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
